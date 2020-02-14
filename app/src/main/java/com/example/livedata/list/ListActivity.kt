@@ -5,14 +5,13 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.livedata.R
-import com.example.livedata.model.Model
-import com.example.livedata.network.WikiApiService
-import io.reactivex.disposables.Disposable
+import com.example.livedata.model.Post
+import com.example.livedata.network.AppClient
 import kotlinx.android.synthetic.main.activity_list.*
-import javax.inject.Inject
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+import javax.inject.Inject
 
 class ListActivity : AppCompatActivity() {
 
@@ -21,11 +20,7 @@ class ListActivity : AppCompatActivity() {
 
     private val listUser : ArrayList<User> = ArrayList()
 
-    private var disposable: Disposable? = null
 
-    private val wikiApiServe by lazy {
-        WikiApiService.create()
-    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,12 +37,12 @@ class ListActivity : AppCompatActivity() {
     }
 
     private fun beginSearch() {
-        wikiApiServe.hitCountCheck("1").enqueue(object : Callback<Model>{
-            override fun onFailure(call: Call<Model>, t: Throwable) {
+        AppClient.create().hitCountCheck("1").enqueue(object : Callback<Post>{
+            override fun onFailure(call: Call<Post>, t: Throwable) {
                 Log.d("response","failure")
             }
 
-            override fun onResponse(call: Call<Model>, response: Response<Model>) {
+            override fun onResponse(call: Call<Post>, response: Response<Post>) {
 //                response.body()?.title
                 Log.d("response",response.body()?.title.toString())
             }
