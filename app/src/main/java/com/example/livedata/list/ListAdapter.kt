@@ -5,11 +5,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.livedata.R
+import com.example.livedata.model.Post
 import kotlinx.android.synthetic.main.item_user.view.*
 
-class ListAdapter(var users: ArrayList<User>) :
+class ListAdapter:
     RecyclerView.Adapter<ListAdapter.UserViewHolder>() {
-    fun updateUsers(newUsers: List<User>) {
+
+    private val users = ArrayList<Post>()
+    fun updateUsers(newUsers: List<Post>) {
         users.clear()
         users.addAll(newUsers)
         notifyDataSetChanged()
@@ -19,12 +22,12 @@ class ListAdapter(var users: ArrayList<User>) :
     )
     override fun getItemCount() = users.size
     override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
-        holder.bind(users[position])
+        holder.bind(users.get(position))
     }
     class UserViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         private val userName = view.userName
-        fun bind(country: User) {
-            userName.text = country.firstName
+        fun bind(country: Post) {
+            userName.text = country.title
         }
     }
 }

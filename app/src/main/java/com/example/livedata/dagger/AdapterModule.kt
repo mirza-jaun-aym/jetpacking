@@ -7,4 +7,6 @@ import dagger.Provides
 
 @Module
 class AdapterModule {
+    @Provides
+    fun provideListAdapter() : ListAdapter = ListAdapter()
 }

@@ -33,3 +33,13 @@ c
 3app/src/main/java/com/example/livedata/list/User.kt,a/a/aa17c71262251543387575404b6374e247605a02
 k
 ;app/src/main/java/com/example/livedata/list/ListActivity.kt,0/4/04c98e323d1f715d612baadde3ae0a5d551378ca
+c
+3app/src/main/java/com/example/livedata/app/MyApp.kt,3/0/30f6790b7b603bc4655c0c7e35da022c283ebdd9
+n
+>app/src/main/java/com/example/livedata/dagger/AdapterModule.kt,b/f/bf0a4d6953a18699397e52098721cc869785a2bf
+k
+;app/src/main/java/com/example/livedata/network/AppClient.kt,2/1/21647e7fb1a5753ee56def09688fe842bd3c3988
+d
+4app/src/main/java/com/example/livedata/model/Post.kt,2/9/29305d45041c08944d7194a94dd036bf92e79160
+p
+@app/src/main/java/com/example/livedata/network/WikiApiService.kt,f/b/fbef1b04a478e4f1397f39abb4ae366e337911df
