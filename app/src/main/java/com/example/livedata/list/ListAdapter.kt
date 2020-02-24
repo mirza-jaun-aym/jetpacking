@@ -7,8 +7,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.livedata.R
 import com.example.livedata.model.Post
 import kotlinx.android.synthetic.main.item_user.view.*
+import javax.inject.Inject
 
-class ListAdapter:
+class ListAdapter @Inject constructor():
     RecyclerView.Adapter<ListAdapter.UserViewHolder>() {
 
     private val users = ArrayList<Post>()

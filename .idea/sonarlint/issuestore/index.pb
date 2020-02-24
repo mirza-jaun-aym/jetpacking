@@ -43,3 +43,7 @@ d
 4app/src/main/java/com/example/livedata/model/Post.kt,2/9/29305d45041c08944d7194a94dd036bf92e79160
 p
 @app/src/main/java/com/example/livedata/network/WikiApiService.kt,f/b/fbef1b04a478e4f1397f39abb4ae366e337911df
+}
+Mapp/src/main/java/com/example/livedata/list/ui/listother/ListOtherFragment.kt,1/f/1f9e3acd8557c1704aaff54c4d3ec17f94b07904
+h
+8app/src/main/java/com/example/livedata/list/ListOther.kt,9/f/9f5cbb2c16cf66494e0f7c3d54bc1e670587f4d2
