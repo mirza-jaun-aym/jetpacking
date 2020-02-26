@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+/.idea/
+/etc/clubpampers.release.encrypted.jks
+/etc/clubpampers.release.encrypted.jks.out
+/etc/dodotvip.release.encrypted.jks
+.gitignore
+app/libs/
+app/sampledata/
