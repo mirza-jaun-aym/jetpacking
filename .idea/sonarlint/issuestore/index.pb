@@ -43,3 +43,5 @@ d
 4app/src/main/java/com/example/livedata/model/Post.kt,2/9/29305d45041c08944d7194a94dd036bf92e79160
 p
 @app/src/main/java/com/example/livedata/network/WikiApiService.kt,f/b/fbef1b04a478e4f1397f39abb4ae366e337911df
+R
+"app/src/main/res/values/styles.xml,f/7/f79cc2688e29fcbc286fda14ae07b27c9e83690f

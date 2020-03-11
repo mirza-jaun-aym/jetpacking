@@ -5,7 +5,7 @@ import com.example.livedata.list.ListActivity
 import dagger.Component
 
 @Component(modules = [Bag::class,AdapterModule::class])
-interface MagicBox {
-    fun poke(app: InjectionExperimentActivity)
+interface AppComponent {
+    fun inject(app: InjectionExperimentActivity)
     fun inject(app: ListActivity)
 }

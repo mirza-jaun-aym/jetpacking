@@ -13,7 +13,7 @@ class InjectionExperimentActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_injection_experiment)
-        DaggerMagicBox.create().poke(this)
+        DaggerAppComponent.create().inject(this)
         textViewTitle.text = info.text
     }
 }
