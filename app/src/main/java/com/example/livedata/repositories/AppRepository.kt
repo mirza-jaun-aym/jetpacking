@@ -42,4 +42,9 @@ class AppRepository @Inject constructor(val appPreferences: AppPreferences) {
         appPreferences.setString("$username$PASSWORD_SUFFIX", password)
     }
 
+    fun checkUserCredentials() = appPreferences.getString(REGISTERED_USER)
+    fun clearUserCredentials() {
+        appPreferences.setString(REGISTERED_USER,"")
+    }
+
 }

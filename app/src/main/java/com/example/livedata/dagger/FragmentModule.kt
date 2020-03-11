@@ -1,7 +1,7 @@
 package com.example.livedata.dagger
 
 import com.example.livedata.auth.LoginFragment
-import com.example.livedata.list.ui.listother.ListOtherFragment
+import com.example.livedata.list.ui.listother.ListFragment
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
@@ -9,9 +9,8 @@ import dagger.android.ContributesAndroidInjector
 abstract class FragmentModule {
 
     @ContributesAndroidInjector
-    abstract fun contributeListFragment(): ListOtherFragment
+    abstract fun contributeListFragment(): ListFragment
 
     @ContributesAndroidInjector
     abstract fun contributeLoginFragment(): LoginFragment
-
 }
