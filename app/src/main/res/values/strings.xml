@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">Live Data Practice</string>
+    <string name="app_name">Let\'s Dagger It</string>
 
     <string name="seconds">%d seconds elapsed</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="dagger">Dagger</string>
 
 </resources>

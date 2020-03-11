@@ -33,11 +33,18 @@ class ListViewModel(val appRepository: AppRepository) : ViewModel() {
         return listLiveData
     }
 
+    fun clearPref(): LiveData<Boolean> {
+        val prefLiveData = MutableLiveData<Boolean>()
+        appRepository.clearUserCredentials()
+        prefLiveData.value = false
+        return prefLiveData
+    }
+
     @Suppress("UNCHECKED_CAST")
-    class ListViewModelFactory @Inject constructor(val appRepository: AppRepository) : ViewModelProvider.Factory {
+    class ListViewModelFactory @Inject constructor(val appRepository: AppRepository) :
+        ViewModelProvider.Factory {
         override fun <T : ViewModel?> create(modelClass: Class<T>): T {
             return ListViewModel(appRepository) as T
         }
-
     }
 }
