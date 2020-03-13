@@ -1,6 +1,7 @@
 package com.example.livedata.dagger
 
 import com.example.livedata.app.MyApp
+import com.example.livedata.dagger.scope.ApplicationScoped
 import dagger.Component
 import dagger.android.AndroidInjector
 import dagger.android.support.AndroidSupportInjectionModule

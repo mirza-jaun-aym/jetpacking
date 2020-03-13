@@ -3,7 +3,7 @@ package com.example.livedata.repositories
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.livedata.dagger.ApplicationScoped
+import com.example.livedata.dagger.scope.ApplicationScoped
 import com.example.livedata.model.Post
 import com.example.livedata.network.AppClient
 import com.example.livedata.storage.AppPreferences

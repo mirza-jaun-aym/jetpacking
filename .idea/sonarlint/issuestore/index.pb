@@ -25,8 +25,6 @@ d
 4app/src/main/java/com/example/livedata/model/Post.kt,2/9/29305d45041c08944d7194a94dd036bf92e79160
 p
 @app/src/main/java/com/example/livedata/network/WikiApiService.kt,f/b/fbef1b04a478e4f1397f39abb4ae366e337911df
-}
-Mapp/src/main/java/com/example/livedata/list/ui/listother/ListOtherFragment.kt,1/f/1f9e3acd8557c1704aaff54c4d3ec17f94b07904
 m
 =app/src/main/java/com/example/livedata/common/BaseFragment.kt,5/1/51d30ae7354c84808523cecf0bd95a2631bb6098
 m
@@ -35,8 +33,6 @@ o
 ?app/src/main/java/com/example/livedata/dagger/FragmentModule.kt,4/2/4207beda49cf16b11342001eb3abf7e8bd888bb2
 o
 ?app/src/main/java/com/example/livedata/dagger/ActivityModule.kt,a/1/a17d14a68008ba66a5af46e70db0101007028059
-t
-Dapp/src/main/java/com/example/livedata/dagger/ApplicationScoped.java,e/e/eec29215823e404a40b7e086063ebc0f77251966
 l
 <app/src/main/java/com/example/livedata/list/ListViewModel.kt,b/a/bad282cbcf6dba8186e017e1ac826171b753a363
 m
@@ -47,8 +43,6 @@ S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 >
 app/.gitignore,5/1/51e1c5d383dfaa35e0e7e5873a0a99355a86880f
-s
-Capp/src/main/java/com/example/livedata/dagger/ApplicationContext.kt,a/b/ab8ec39a9f1c3eb5e51a296023ca176f85f2b3d0
 r
 Bapp/src/main/java/com/example/livedata/dagger/ApplicationModule.kt,7/3/734180e46cf283c260323aa70cc09a1da46b7dff
 p
@@ -65,3 +59,7 @@ l
 <app/src/main/java/com/example/livedata/auth/LoginFragment.kt,f/c/fcdb371a91ff7f43bc6c59e6d26ffd90de6143d4
 k
 ;app/src/main/java/com/example/livedata/auth/AuthActivity.kt,1/c/1c089220bba4af03800787d4d88d0ef0319e19c4
+z
+Japp/src/main/java/com/example/livedata/dagger/scope/ApplicationScoped.java,d/b/db08cb46e88415ed331468f868b9ee860dd5892b
+}
+Mapp/src/main/java/com/example/livedata/dagger/qualifier/ApplicationContext.kt,f/0/f01a333059f6eaa6577e76f138d0a13ae40d8a18

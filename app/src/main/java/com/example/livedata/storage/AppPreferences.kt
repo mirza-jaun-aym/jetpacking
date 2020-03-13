@@ -1,7 +1,7 @@
 package com.example.livedata.storage
 
 import android.content.Context
-import com.example.livedata.dagger.ApplicationContext
+import com.example.livedata.dagger.qualifier.ApplicationContext
 import javax.inject.Inject
 
 class AppPreferences @Inject constructor(@ApplicationContext context: Context) {
