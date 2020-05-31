@@ -63,3 +63,8 @@ z
 Japp/src/main/java/com/example/livedata/dagger/scope/ApplicationScoped.java,d/b/db08cb46e88415ed331468f868b9ee860dd5892b
 }
 Mapp/src/main/java/com/example/livedata/dagger/qualifier/ApplicationContext.kt,f/0/f01a333059f6eaa6577e76f138d0a13ae40d8a18
+F
+app/proguard-rules.pro,9/e/9e08934d811afe28fbc77aaa3c0d747b94348db9
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302

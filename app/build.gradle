@@ -41,6 +41,7 @@ dependencies {
     // if you use the support libraries
     kapt "com.google.dagger:dagger-android-processor:$dagger_version"
 
+
     //retrofit
     implementation "com.squareup.retrofit2:retrofit:2.3.0"
     implementation "com.squareup.retrofit2:adapter-rxjava2:2.3.0"

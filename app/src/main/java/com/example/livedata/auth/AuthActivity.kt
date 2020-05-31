@@ -1,11 +1,11 @@
 package com.example.livedata.auth
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import com.example.livedata.R
+import com.example.livedata.common.BaseActivity
 
 
-class AuthActivity : AppCompatActivity() {
+class AuthActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
