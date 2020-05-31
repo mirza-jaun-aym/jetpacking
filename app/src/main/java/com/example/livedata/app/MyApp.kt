@@ -20,7 +20,6 @@ open class MyApp  : Application(),  HasAndroidInjector {
             .build()
     }*/
 
-    @Override
     override fun onCreate(){
         super.onCreate()
 
